@@ -1,0 +1,1163 @@
+@font-face {
+    font-family: 'Reforma';
+    src: url('Reformagroteskmediumc.otf');
+}
+
+@font-face {
+    font-family: 'ReformaB';
+    src: url('ReformaGroteskBoldC.ttf');
+}
+
+@font-face {
+    font-family: 'ReformaC';
+    src: url('ReformaGroteskDemiC.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{ 
+    width: 1920px;
+    height: 960px;
+    background-image: url(Rectangle\ 64.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.72px;
+    font-style: normal;
+    line-height: 120%;
+    font-family: 'Reforma';
+}
+
+.opcii{
+    width: 40px;
+    height: 20px;
+ justify-content: center;  
+}
+
+.text{
+    width: 1920px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.zov{
+    width: 500px;
+    height: 188px;
+    color:  #DB3138;
+    font-size: 150px;
+    letter-spacing: 0px;
+    font-family: 'ReformaB';
+}
+
+.mt{
+     margin-top: 150px; 
+} 
+
+.lorem{
+    text-align: center;
+    width: 437px;
+    height: 96px;
+    color: white;
+    margin-top: 60px;
+    font-family: 'Reforma';
+    font-size: 40px;
+}
+
+.fourdots{
+    width: 146px;
+    height: 15px;
+}
+
+.fourdots2{
+    width: 146px;
+    height: 15px;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+
+.fourdots3{
+    width: 146px;
+    height: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+.fourdots4{
+    width: 146px;
+    height: 15px;
+    margin-left: auto;
+   margin-right: auto;
+    margin-top: 30px;
+}
+
+.opop{
+    width: 144px;
+    height: 60px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.texxt{
+  width: 144px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  font-family: 'ReformaC';
+  color: white;
+  border: none;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+
+}
+
+.texxt span{
+  position: relative;
+  z-index: 2;
+}
+
+.texxt:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #DB3138;
+  transition: all .35s;
+}
+
+.texxt:hover{
+  color: #fff;
+}
+
+.texxt:hover:after{
+  width: 50%;
+}
+
+.tableee{
+    width: 1920px;
+    height: 160px;
+    text-align: center;
+    border: 1px white solid;
+    border-left: none;
+    border-right: none;
+}
+
+.pisun{
+    border-right: 2px white solid;
+    width: 640px; 
+}
+
+.white{
+color: white;
+font-family: 'ReformaC';
+font-size: 18px;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+margin-top: -60px ;
+}
+
+.red{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px; 
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.red1{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaGroteskDemiC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.white1{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin-top: 10px ;
+}
+
+.bn{
+    border-right: none;
+}
+
+main{
+    width: 1920px;
+    height: 2000px;
+    background-color: #141414;
+}
+
+.ypi{
+    width: 1920px;
+    height: 1000px;
+    background-color: #141414;
+    display: flex;
+}
+
+.bigdiv{
+    width: 1296px;
+    height: 745px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.div1{
+    width: 648px;
+    height: 745px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2{
+    width: 648px;
+    height: 745px;
+    display: flex;
+}
+
+.achievments{
+    font-size: 52px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'ReformaC';
+}
+
+.textttt{
+    width: 526px;
+    height: 116px;
+    color: white;
+    margin-top: 40px;
+    font-family: 'Reforma';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+    margin-top: 60px;
+}
+
+.table11{
+height: 708px;
+width: 318px;
+text-align: center;
+}
+
+.td1{
+    border: 1px white solid;
+    height: 177px;
+}
+
+.table12{
+    height: 708px;
+    width: 318px;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    right: 5px;
+}
+
+.red12{
+    color: #DB3138;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    line-height: 140%;
+    font-family: 'ReformaC';
+}
+
+.white12{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+}
+
+.up1{
+    position: relative;
+    bottom: 3px;
+}
+
+.up2{
+    position: relative;
+    bottom: 6px;
+}
+
+.up3{
+    position: relative;
+    bottom: 9px;
+}
+
+.down1{
+    margin-top: 60px;
+
+}
+
+.fourdots1{
+    width: 146px;
+    height: 15px;
+  
+}
+
+.section1{
+     width: 1920px;
+    height: 450px;
+    background-color: #141414;
+    display: flex;
+}
+
+.divindiv{
+    margin: auto;
+    width: 1558px;
+    height: 420px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rotateleft{
+    width: 50px;
+    height: 50px;
+    border: red 4px solid;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: rotate(45deg);
+}
+
+.dontrotate{
+    transform: rotate(-45deg);
+    margin-top: 11px;
+    margin-left: 9px;
+}
+
+.car{
+    width: 416px;
+    height: 350px;
+}
+
+.car1{
+    width: 416px;
+    height: 350px;
+}
+
+.anothermargin{
+    margin-left: 60px;
+}
+
+.textandred{
+    width: 366px;
+    height: 70px;
+    background-color: #DB3138;
+    position: relative;
+    bottom: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.anotherlorem{
+    width: 286px;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}   
+
+.slider{
+    width: 1296px;
+    height: 416px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.slider-line{
+    right: 856px;
+    height: 350px;
+    width: 1296px;
+    display: flex;
+    position: relative;
+    transition: all ease 1s;
+    gap: 24px;
+    margin-left: -56px;
+}
+
+.slider-prev{
+    z-index: 3;
+}
+.table1_row{
+    width: 1920px;
+    height: 160px;
+}
+
+.section2{
+    width: 1920px;
+    height: 900px;
+    background-color: #141414;
+    display: flex;
+}
+
+.mainspace{
+    width: 1296px;
+    height: 663px;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.firrst{
+    height: 663px;
+    width: 648px;  
+   
+}
+
+.seccond{
+    height: 663px;
+    width: 648px;
+   
+}
+
+.mashinka{
+    width: 57px;
+    height: 70px;
+}
+
+.bigtext{
+    width: 423px;
+    height: 43px;
+    font-family: 'ReformaC';
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 37px;
+}
+
+.name1{
+    display: flex;  
+}
+
+.texxxxt{
+    margin-top: 30px;
+    width: 526px;
+    height: 58px;
+    font-family: 'Reforma';
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.72px;
+    color: white;
+}
+
+
+
+.name2{
+    display: flex;
+    margin-top: 40px;  
+}
+
+.textslider{
+    width: 636px;
+    height: 71px;
+    display: flex;
+    margin-top: 50px;
+    justify-content:space-between ;
+}
+
+.texxxt{
+    width: 422px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    color: white;
+    line-height: 140%;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section3{
+    width: 1920px;
+    height: 1000px;
+    background-color: #141414;
+    display: flex;
+}
+
+.workspace2{
+    width: 1296px;
+    height: 771px;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.services{
+    width: 636px ;
+    height: 73px ;
+    font-family: 'ReformaC';
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.itnotdots13{
+    width: 146px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+
+.buttons{
+    width: 450px;
+    height: 75px;
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sticker{
+    width: 180px;
+    height: 75px;
+    background-color: #DB3138;
+    border: none;
+    color: white;
+}
+
+.sticker2{
+    width: 209px;
+    height: 75px;
+    background-color: #141414;
+    border: none;
+    color: white;
+}
+
+.stickertext{
+    font-family: 'ReformaC';
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.eptit{
+    width: 306px;
+    height: 428px;
+    border: 1px white solid;
+    
+   
+   
+}
+
+.wtf{
+    margin-top: 160px;
+    width: 1296px;
+    height: 430px;
+}
+
+.kartinka{
+    margin-left: 125px;
+    width: 70px;
+    height: 57px;
+    margin-top: 0px;
+}
+
+.bigtexxt{
+    margin-left: 75px;
+    font-family: 'ReformaC';
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 28px;
+}
+
+.smoltext{
+    width: 226px;
+    height: 88px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.anotherbutton{
+    width: 60px;
+    height: 41px;
+    margin-left: 100px;
+    margin-top: 25px;
+    background-color: #DB3138;
+    border: none;
+}
+
+.textlevee{
+    font-family: 'ReformaC';
+    font-size: 18px;
+    color: white;
+    line-height: 140%;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    position: relative;
+    left: 20px;
+}
+
+.kartinka2{
+    margin-left: 125px;
+    width: 57px;
+    height: 71px;
+    margin-top: -10px;
+}
+
+.kartinka3{
+    margin-left: 125px;
+    width: 70px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.kartinka4{
+    margin-left: 125px;
+    width: 70px;
+    height: 70px;
+    margin-top: 0px;
+}
+
+.section4{
+    width: 1920px;
+    height: 900px;
+    background-color: #141414;
+    display: flex;
+}
+
+.firrst1{
+    height: 663px;
+    width: 648px;  
+}
+
+.jester{
+    margin-left: 100px;
+}
+
+.section5{
+    width: 1920px;
+    height: 1028px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+}
+
+.font{
+    font-family: 'ReformaC';
+    color: white;
+    font-size: 52px;
+    line-height: 140%;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+}
+
+.sometext{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+.section6{
+    width: 1920px;
+    height: 1000px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+}
+
+.centerplease{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.margin{
+    margin-top: 170px;
+}
+
+.another{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sonson{
+   width: 147px;
+   height: 15px;
+}
+
+.finalwork{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.twoinputs{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs{
+    width: 340px;
+    height: 47px;
+    background-color: #141414;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    border: 1px white solid;
+    text-transform: uppercase;
+}
+
+.inputandlinks{
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input2{
+    width: 550px;
+    height: 200px;
+    background-color: #141414;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    border: 1px white solid;
+    text-transform: uppercase;
+    text-align:justify;
+}
+
+.miniwork{
+    width: 60px;
+    height: 200px;
+}
+
+.lol{
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic{
+    width: 30px;
+    height: 30px;
+}
+
+.margin2{
+    margin-top: 37px;
+}
+
+.buttonandinfo{
+    width: 700px;
+    height: 70px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but{
+    background-color: #DB3138;
+    border: none;
+    font-family: 'ReformaC';
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.itired{
+    width: 350px;
+    height: 70px;
+}
+
+.firstline{
+    display: flex;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+}
+
+.mg{
+    margin-left: 10px;
+}
+
+.secondline{
+    display: flex;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+}
+
+.df{
+    display: flex;
+}
+
+.mg2{
+    margin-left: 40px;
+}
+
+.mgt{
+    margin-top: 15px;
+}
+
+footer{
+    width: 1920px;
+    height: 100px;
+}
+.almostfinal{
+     width: 100%;
+    height: 100px; 
+    margin-top: 0px;
+    border-top: 1px solid white;
+    background-color: #141414;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lasttext{
+font-family: 'ReformaC';
+font-size: 16px;
+line-height: 140%; 
+letter-spacing: 0.8px;
+text-transform: uppercase;
+color: gray;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.fourlinks{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mgr{
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 480px){
+
+    header,.text{ 
+        width: 100%;
+        height: auto;
+    }
+    nav{
+      width: 100%;
+      height: 80%;
+      text-align: left;
+    }
+   
+
+    .links{
+        flex-direction:row;
+        
+    }
+
+    .link{
+        font-size: 20px;
+    }
+
+    .zov{
+        width: 100%;
+        font-size: 60px;
+        text-align:center;
+    }
+
+    .mt{
+         margin-top: 75px; 
+    } 
+
+    .lorem{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .fourdots, .fourdots2, .fourdots3, .fourdots4{
+        width: 50px;
+    }
+
+    .texxt{
+      font-size: 16px;
+      width: 90%;
+    }
+
+    .tableee, .ypi, main{
+        width: 100%;
+    }
+    .divindiv{
+        width: 100%;
+        height: 60%;
+        flex-direction: row;
+    }
+
+    .bigdiv{
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .div1, .div2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .achievments{
+        font-size: 26px;
+    }
+
+    .textttt{
+        width: 80%;
+        height: auto;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .table11, .table12{
+        width: 90%;
+        height: auto;
+    }
+
+    .red12{
+        font-size: 18px;
+    }
+
+    .white12{
+        font-size: 8px;
+    }
+    .up1, .up2, .up3, .down1{
+        position: initial;
+        margin-top: 10px;
+        bottom: initial;
+    }
+
+    .section1, .section2, .section3{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+
+    .car, .car1, .slider-line{
+        width: 105%;
+        height: 100%;
+        
+    }
+
+    .rotateleft, .dontrotate, .textandred{
+        width: 30px;
+        height: 30px;
+       
+    }
+
+    .anothermargin{
+        margin-left: 0;
+    }
+
+    .anotherlorem, .bigtext{
+        font-size: 15px;
+    }
+
+    .fourdots1, .textslider, .workspace2{
+        width: 100%;
+        height: auto;
+    }
+
+    .textslider{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons{
+       flex-direction: column;
+       align-items: center;
+       height: auto;
+    }
+
+    .stickertext{
+        font-size: 18px;
+    }
+
+    .texxxt{
+        width: 80%;
+    }
+    .eptit, .wtf, .slider-line {
+        width: 90%;
+    }
+
+
+
+    .bigtext, .bigtexxt {
+        font-size: 16px;
+    }
+    
+    .section1, .section2, .section3, .section4 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .smoltext, .texxxt {
+        width: 80%;
+    }
+    
+    .section5, .section6, .workspace2 {
+        width: 100%;
+    }
+    
+    .services, .font {
+        font-size: 26px;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .stickertext {
+        font-size: 20px;
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+
+    .slider, .firrst1, .jester {
+        width: 100%;
+    }
+    
+    .finalwork, .twoinputs, .inputandlinks, .buttonandinfo {
+        width: 90%;
+        flex-direction: column;
+    }
+    
+    .inputs, .input2 {
+        width: 100%;
+    }
+
+    .lol {
+        width: 30px;
+        height: 30px;
+    }
+
+    .pic {
+        width: 15px;
+        height: 15px;
+    }
+
+    .but {
+        font-size: 15px;
+    }
+
+    .miniwork {
+        width: 30px;
+        height: 100px;
+    }
+
+    .firstline, .secondline {
+        font-size: 12px;
+    }
+
+    .lasttext {
+        font-size: 10px;
+    }
+
+    .almostfinal {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mgr, .mg2 {
+        margin-left: 10px;
+    }
+
+}
